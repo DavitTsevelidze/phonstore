@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+height: auto;
+
+  
+    margin-top: 50px;
+    .card{
+      
+       border: 1px solid rgb(220, 220, 220);
+       border-radius: 35px;
+
+
+    img{
+        
+        display: flex;
+        justify-content: center;
+        float: left;
+    }
+    .carD{
+       display: flex;
+       justify-content: center;
+     border: 0px;
+     
+    }
+    a{
+        display: flex;
+        justify-content: center;
+     left: auto;
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+    }
+    .button{
+        margin-bottom: 20px;
+        width: 150x;
+        height: 35px;
+        background-color: rgb(255, 140, 0);
+        border-radius: 25px;
+       margin-left: 30x;
+       a:hover{
+        background-color: rgb(182, 94, 11);
+        color: orange;
+        border-radius: 25px;
+        width: 150x;
+        height: 35px;
+       }
+        
+     }
+        
+    }
+    // .card:hover{
+       
+        
+    // }
+   
+    
+}
+    .form-check{
+        margin-left: 100px;
+    }
+      
+
+
+
+.cardT{
+    background-color:rgb(255, 111, 0);
+    border-radius: 25px;
+   width:130px;
+   color: rgb(248, 233, 14);
+   font-size: 12px;
+   display: flex;
+  justify-content: center;
+   
+ 
+
+  
+    
+}
+.text-warning{
+    p{
+        background-color: red;
+        width: 100px;
+        border-radius: 5px;
+       
+    }
+
+
+}
+.text-primary{
+    background-color: aqua;
+    width: 100px;
+    border-radius: 5px;
+   margin-left: auto;
+   p{
+    display: flex;
+    justify-content: center;
+   }
+    
+}

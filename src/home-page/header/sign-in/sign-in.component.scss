@@ -1,0 +1,33 @@
+.container{
+    width: 500px;
+    box-shadow: 10px black;
+    margin-top: 20px;
+    color: orange;
+    border: none;
+    button{
+        background-color: orange;
+        color: yellow;
+    }
+    .nav-item{
+        a{
+            background-color: rgb(255, 187, 0);
+            color: rgb(167, 100, 0);
+            border-radius: 25px;
+        }
+        a:hover{
+            background-color: rgb(255, 125, 3);
+            color: yellow;
+            border-radius: 25px;
+        }
+        
+    }
+    i{
+        background-color: orange;
+        color: black;
+    }
+    i:hover{
+       
+        color: yellow;
+    }
+  
+}

@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="card" style="width: 17rem;" >
+      <div>
+        @if (product.stock < 70) {
+          <div class="text-warning">
+           <p>few items left</p>
+          </div>
+          
+        }
+         @if(product.stock > 70) {
+          <div class="text-primary">
+           <p>In Stock</p>
+          </div>
+          
+         }
+      
+       <img class="card-img-top" [src]="product.images" alt="Card image cap">
+      </div>
+     
+      <div class="carD">
+        <p class="cardT">{{product.title}}</p>
+      </div>
+      
+      <div class="card-body">
+               
+      <h5>Price: {{product.price | currency: 'USD'}}</h5>
+        
+      <p class="card-text">{{product.description}}</p>
+        
+        
+        <span class="text-danger"> rating: {{product.rating}}</span>
+        <br>
+        <br>
+        
+        
+           
+          
+        <div class="button">
+          <a href="#" class="">Check Offer</a>
+        </div>
+       
+  </div>
